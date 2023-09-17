@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Kanit", sans-serif;
+}
+body{
+    background-image: linear-gradient(90deg, #020024 0%, #090979 20%, #00d4ff 100%);
+    text-align: center;
+}
+main{
+    margin-top: 10rem;
+}
+.imagen__fondo{
+    width: 100%;
+}
+.seccion__texto__search{
+    width: 85%;
+    padding: 2rem;
+    
+}
+.seccion__texto__search input{
+    /* border-radius: 30px; */
+    padding: 1rem 2rem;
+    border: #000000 solid 2px;
+    width: 15%;
+    outline: 0;
+}
+.seccion__texto__search button{
+    background-color: white;
+    border: none;
+    color: #d30a40;
+    /* border-radius: 30px; */
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
