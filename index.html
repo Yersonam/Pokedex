@@ -12,21 +12,23 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <main>
-        <div class="imagen__fondo">
-            <img src="/imagenes/pokedex.png" alt="pokedex">
-        </div>
-        <div class="seccion__texto">
-            <div class="seccion__texto__search">
-                <input type="text" placeholder="....Yo te elijo!" class="search">
+    <section class="contenedor__general">
+        <div class="contenedor__general__pokedex">
+            <img src="imagenes/pokedex.png" alt="pokedex">
+            <div class="contenedor__general__pokedex__resultado">
+                <div class="contenedor__general__pokedex__resultado__pokemon">
+                    <div class="contenedor__general__pokedex__resultado__pokemon__item">
+                        
+                    </div>
+                </div>                
+            </div>
+            <div class="contenedor__general__search">
+                <input type="text" placeholder="Nombra tu Pokemón" class="search">
                 <button class="btn">Buscar</button>
-            </div>
-            <div class="seccion__texto__resultados">
-                                
-            </div>
-            
+            </div> 
         </div>
-    </main>    
+        
+    </section>   
 </body>
 <script src="js/codigo.js"></script>
 </html>
